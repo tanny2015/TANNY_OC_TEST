@@ -100,13 +100,16 @@ int main(int argc, const char * argv[]) {
         
         //2.2可变集合对象
         
-        NSMutableArray *array = [NSMutableArray arrayWithObjects:[NSMutableString stringWithString:@"a"],@"b",@"c",nil];
+        /*----
+         NSMutableArray *array = [NSMutableArray arrayWithObjects:[NSMutableString stringWithString:@"a"],@"b",@"c",nil];
         NSLog(@"0.array指向的内存地址是：%p,array[0]是数组指针指向内存地址：%p,array[1]是字符串指针指向内存地址：%p",array,array[0],array[1]);
         NSArray *copyArray = [array copy];
         NSLog(@"1.[copy]copyArray指向的内存地址是：%p,copyArray[0]也是数组指针，它指向的内存地址是：%p,copyArray[1]是字符串指针指向内存地址：%p",copyArray,copyArray[0],copyArray[1]);
 
         NSMutableArray *mCopyArray = [array mutableCopy];
         NSLog(@"2.[MutableCopy]mCopyArray指向的内存地址是：%p,mCopyArray[0]也是数组指针，它指向的内存地址是：%p,mCopyArray[1]是字符串指针指向内存地址：%p",mCopyArray,mCopyArray[0],mCopyArray[1]);
+        ----------*/
+        
         /*
          打印结果：
          0.array指向的内存地址是：0x100203150,array[0]是数组指针指向内存地址：0x100208420,array[1]是字符串指针指向内存地址：0x100001068
@@ -127,6 +130,20 @@ int main(int argc, const char * argv[]) {
          [mutableObject mutableCopy] //单层深复制
          */
         
+        
+        
+        //////////   测试完全深复制 /////////
+        NSArray *arr = @[@[@"a", @"b"], @[@"c", @"d"]];
+        NSArray *new_arr = [[NSArray alloc] initWithArray:arr copyItems:YES];
+        NSLog(@"指针所指内存地址如下：\n 1.old_arr指向：%p, new_arr指向：%p \n 2.old_arr[0]指向：%p, new_arr[0]指向：%p ",arr,new_arr,arr[0],new_arr[0]);
+        
+        /*打印结果：
+         指针所指内存地址如下：
+         1.old_arr指向：0x1004031b0, new_arr指向：0x1004031d0
+         2.old_arr[0]指向：0x100401260, new_arr[0]指向：0x100401260
+         结论：
+         这个还是单层深复制
+         */
         NSLog(@"Hello, World!");
     }
     return 0;
