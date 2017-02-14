@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		20DDCCE91E5359A2002F0DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDCCE81E5359A2002F0DF0 /* main.m */; };
+		20DDCCF61E535A2A002F0DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDCCF51E535A2A002F0DF0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		20DDCCE31E5359A1002F0DF0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		20DDCCF11E535A2A002F0DF0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		20DDCCE51E5359A1002F0DF0 /* TANNY_OC_TEST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TANNY_OC_TEST; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DDCCE81E5359A2002F0DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20DDCCF31E535A2A002F0DF0 /* 1.deep or shadow copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.deep or shadow copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DDCCF51E535A2A002F0DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20DDCCE21E5359A1002F0DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DDCCF01E535A2A002F0DF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				20DDCCE71E5359A1002F0DF0 /* TANNY_OC_TEST */,
+				20DDCCF41E535A2A002F0DF0 /* 1.deep or shadow copy */,
 				20DDCCE61E5359A1002F0DF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				20DDCCE51E5359A1002F0DF0 /* TANNY_OC_TEST */,
+				20DDCCF31E535A2A002F0DF0 /* 1.deep or shadow copy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				20DDCCE81E5359A2002F0DF0 /* main.m */,
 			);
 			path = TANNY_OC_TEST;
+			sourceTree = "<group>";
+		};
+		20DDCCF41E535A2A002F0DF0 /* 1.deep or shadow copy */ = {
+			isa = PBXGroup;
+			children = (
+				20DDCCF51E535A2A002F0DF0 /* main.m */,
+			);
+			path = "1.deep or shadow copy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 20DDCCE51E5359A1002F0DF0 /* TANNY_OC_TEST */;
 			productType = "com.apple.product-type.tool";
 		};
+		20DDCCF21E535A2A002F0DF0 /* 1.deep or shadow copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DDCCF71E535A2A002F0DF0 /* Build configuration list for PBXNativeTarget "1.deep or shadow copy" */;
+			buildPhases = (
+				20DDCCEF1E535A2A002F0DF0 /* Sources */,
+				20DDCCF01E535A2A002F0DF0 /* Frameworks */,
+				20DDCCF11E535A2A002F0DF0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.deep or shadow copy";
+			productName = "1.deep or shadow copy";
+			productReference = 20DDCCF31E535A2A002F0DF0 /* 1.deep or shadow copy */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = "tanny wong";
 				TargetAttributes = {
 					20DDCCE41E5359A1002F0DF0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					20DDCCF21E535A2A002F0DF0 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				20DDCCE41E5359A1002F0DF0 /* TANNY_OC_TEST */,
+				20DDCCF21E535A2A002F0DF0 /* 1.deep or shadow copy */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DDCCE91E5359A2002F0DF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DDCCEF1E535A2A002F0DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DDCCF61E535A2A002F0DF0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +276,20 @@
 			};
 			name = Release;
 		};
+		20DDCCF81E535A2A002F0DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20DDCCF91E535A2A002F0DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -235,6 +307,14 @@
 			buildConfigurations = (
 				20DDCCED1E5359A2002F0DF0 /* Debug */,
 				20DDCCEE1E5359A2002F0DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20DDCCF71E535A2A002F0DF0 /* Build configuration list for PBXNativeTarget "1.deep or shadow copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DDCCF81E535A2A002F0DF0 /* Debug */,
+				20DDCCF91E535A2A002F0DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
