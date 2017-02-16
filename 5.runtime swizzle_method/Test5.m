@@ -96,7 +96,7 @@
     objc_msgSend(user, @selector(printAge));
     /*
      2017-02-16 20:42:42.204 05-runtime[5366:398332] User5的age = 20
-     实际上User5没有开放任何借口，但通过objc_msgSend还是可以改他的数据，调他的.m文件的接口。
+     实际上User5没有开放任何接口，但通过objc_msgSend还是可以改他的数据，调他的.m文件的接口。
      */
     
 }
