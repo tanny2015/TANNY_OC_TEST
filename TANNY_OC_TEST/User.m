@@ -21,4 +21,6 @@
     NSLog(@"原来的mstring = %p ,user.addressCopy = %p \n",mstring,user.addressCopy);
     return user;
 }
+
+
 @end

@@ -11,6 +11,13 @@
 		20DDCCF61E535A2A002F0DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDCCF51E535A2A002F0DF0 /* main.m */; };
 		20EC14021E54521D008E426A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14011E54521D008E426A /* main.m */; };
 		20EC14081E5452CB008E426A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14071E5452CB008E426A /* User.m */; };
+		20EC14101E54765E008E426A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC140F1E54765E008E426A /* main.m */; };
+		20EC14161E547B5C008E426A /* test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14151E547B5C008E426A /* test3.m */; };
+		20EC141E1E55AEF2008E426A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC141D1E55AEF2008E426A /* main.m */; };
+		20EC14291E55F0C3008E426A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14281E55F0C3008E426A /* main.m */; };
+		20EC142F1E55F10D008E426A /* User5.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC142E1E55F10D008E426A /* User5.m */; };
+		20EC14321E55F185008E426A /* Test5.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14311E55F185008E426A /* Test5.m */; };
+		20EC14351E55F225008E426A /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14341E55F225008E426A /* NSObject+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +48,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		20EC140B1E54765E008E426A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		20EC14191E55AEF2008E426A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		20EC14241E55F0C3008E426A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +86,19 @@
 		20EC14011E54521D008E426A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20EC14061E5452CB008E426A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../TANNY_OC_TEST/User.h; sourceTree = "<group>"; };
 		20EC14071E5452CB008E426A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../TANNY_OC_TEST/User.m; sourceTree = "<group>"; };
+		20EC140D1E54765E008E426A /* 3.weak主动置nil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3.weak主动置nil"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EC140F1E54765E008E426A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20EC14141E547B5C008E426A /* test3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test3.h; sourceTree = "<group>"; };
+		20EC14151E547B5C008E426A /* test3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test3.m; sourceTree = "<group>"; };
+		20EC141B1E55AEF2008E426A /* 4.block修改堆中的内容 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4.block修改堆中的内容"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EC141D1E55AEF2008E426A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20EC14261E55F0C3008E426A /* 5.runtime swizzle_method */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.runtime swizzle_method"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EC14281E55F0C3008E426A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20EC142D1E55F10D008E426A /* User5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User5.h; sourceTree = "<group>"; };
+		20EC142E1E55F10D008E426A /* User5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User5.m; sourceTree = "<group>"; };
+		20EC14301E55F185008E426A /* Test5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test5.h; sourceTree = "<group>"; };
+		20EC14311E55F185008E426A /* Test5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test5.m; sourceTree = "<group>"; };
+		20EC14341E55F225008E426A /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +123,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20EC140A1E54765E008E426A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EC14181E55AEF2008E426A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EC14231E55F0C3008E426A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +153,9 @@
 				20DDCCE71E5359A1002F0DF0 /* TANNY_OC_TEST */,
 				20DDCCF41E535A2A002F0DF0 /* 1.deep or shadow copy */,
 				20EC14001E54521D008E426A /* 2.copy相关 */,
+				20EC140E1E54765E008E426A /* 3.weak主动置nil */,
+				20EC141C1E55AEF2008E426A /* 4.block修改堆中的内容 */,
+				20EC14271E55F0C3008E426A /* 5.runtime swizzle_method */,
 				20DDCCE61E5359A1002F0DF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +166,9 @@
 				20DDCCE51E5359A1002F0DF0 /* TANNY_OC_TEST */,
 				20DDCCF31E535A2A002F0DF0 /* 1.deep or shadow copy */,
 				20EC13FF1E54521D008E426A /* 2.copy相关 */,
+				20EC140D1E54765E008E426A /* 3.weak主动置nil */,
+				20EC141B1E55AEF2008E426A /* 4.block修改堆中的内容 */,
+				20EC14261E55F0C3008E426A /* 5.runtime swizzle_method */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +197,37 @@
 				20EC14011E54521D008E426A /* main.m */,
 			);
 			path = "2.copy相关";
+			sourceTree = "<group>";
+		};
+		20EC140E1E54765E008E426A /* 3.weak主动置nil */ = {
+			isa = PBXGroup;
+			children = (
+				20EC140F1E54765E008E426A /* main.m */,
+				20EC14141E547B5C008E426A /* test3.h */,
+				20EC14151E547B5C008E426A /* test3.m */,
+			);
+			path = "3.weak主动置nil";
+			sourceTree = "<group>";
+		};
+		20EC141C1E55AEF2008E426A /* 4.block修改堆中的内容 */ = {
+			isa = PBXGroup;
+			children = (
+				20EC141D1E55AEF2008E426A /* main.m */,
+			);
+			path = "4.block修改堆中的内容";
+			sourceTree = "<group>";
+		};
+		20EC14271E55F0C3008E426A /* 5.runtime swizzle_method */ = {
+			isa = PBXGroup;
+			children = (
+				20EC14281E55F0C3008E426A /* main.m */,
+				20EC14301E55F185008E426A /* Test5.h */,
+				20EC14311E55F185008E426A /* Test5.m */,
+				20EC142D1E55F10D008E426A /* User5.h */,
+				20EC142E1E55F10D008E426A /* User5.m */,
+				20EC14341E55F225008E426A /* NSObject+Extension.m */,
+			);
+			path = "5.runtime swizzle_method";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +284,57 @@
 			productReference = 20EC13FF1E54521D008E426A /* 2.copy相关 */;
 			productType = "com.apple.product-type.tool";
 		};
+		20EC140C1E54765E008E426A /* 3.weak主动置nil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EC14131E54765E008E426A /* Build configuration list for PBXNativeTarget "3.weak主动置nil" */;
+			buildPhases = (
+				20EC14091E54765E008E426A /* Sources */,
+				20EC140A1E54765E008E426A /* Frameworks */,
+				20EC140B1E54765E008E426A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3.weak主动置nil";
+			productName = "3.weak主动置nil";
+			productReference = 20EC140D1E54765E008E426A /* 3.weak主动置nil */;
+			productType = "com.apple.product-type.tool";
+		};
+		20EC141A1E55AEF2008E426A /* 4.block修改堆中的内容 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EC141F1E55AEF2008E426A /* Build configuration list for PBXNativeTarget "4.block修改堆中的内容" */;
+			buildPhases = (
+				20EC14171E55AEF2008E426A /* Sources */,
+				20EC14181E55AEF2008E426A /* Frameworks */,
+				20EC14191E55AEF2008E426A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4.block修改堆中的内容";
+			productName = "4.block修改堆中的内容";
+			productReference = 20EC141B1E55AEF2008E426A /* 4.block修改堆中的内容 */;
+			productType = "com.apple.product-type.tool";
+		};
+		20EC14251E55F0C3008E426A /* 5.runtime swizzle_method */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EC142C1E55F0C3008E426A /* Build configuration list for PBXNativeTarget "5.runtime swizzle_method" */;
+			buildPhases = (
+				20EC14221E55F0C3008E426A /* Sources */,
+				20EC14231E55F0C3008E426A /* Frameworks */,
+				20EC14241E55F0C3008E426A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.runtime swizzle_method";
+			productName = "5.runtime swizzle_method";
+			productReference = 20EC14261E55F0C3008E426A /* 5.runtime swizzle_method */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +351,18 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					20EC13FE1E54521D008E426A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					20EC140C1E54765E008E426A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					20EC141A1E55AEF2008E426A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					20EC14251E55F0C3008E426A = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -215,6 +383,9 @@
 				20DDCCE41E5359A1002F0DF0 /* TANNY_OC_TEST */,
 				20DDCCF21E535A2A002F0DF0 /* 1.deep or shadow copy */,
 				20EC13FE1E54521D008E426A /* 2.copy相关 */,
+				20EC140C1E54765E008E426A /* 3.weak主动置nil */,
+				20EC141A1E55AEF2008E426A /* 4.block修改堆中的内容 */,
+				20EC14251E55F0C3008E426A /* 5.runtime swizzle_method */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +413,34 @@
 			files = (
 				20EC14081E5452CB008E426A /* User.m in Sources */,
 				20EC14021E54521D008E426A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EC14091E54765E008E426A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EC14101E54765E008E426A /* main.m in Sources */,
+				20EC14161E547B5C008E426A /* test3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EC14171E55AEF2008E426A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EC141E1E55AEF2008E426A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EC14221E55F0C3008E426A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EC14321E55F185008E426A /* Test5.m in Sources */,
+				20EC142F1E55F10D008E426A /* User5.m in Sources */,
+				20EC14291E55F0C3008E426A /* main.m in Sources */,
+				20EC14351E55F225008E426A /* NSObject+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +576,74 @@
 			};
 			name = Release;
 		};
+		20EC14111E54765E008E426A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20EC14121E54765E008E426A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20EC14201E55AEF2008E426A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20EC14211E55AEF2008E426A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20EC142A1E55F0C3008E426A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20EC142B1E55F0C3008E426A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +682,32 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		20EC14131E54765E008E426A /* Build configuration list for PBXNativeTarget "3.weak主动置nil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EC14111E54765E008E426A /* Debug */,
+				20EC14121E54765E008E426A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EC141F1E55AEF2008E426A /* Build configuration list for PBXNativeTarget "4.block修改堆中的内容" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EC14201E55AEF2008E426A /* Debug */,
+				20EC14211E55AEF2008E426A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EC142C1E55F0C3008E426A /* Build configuration list for PBXNativeTarget "5.runtime swizzle_method" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EC142A1E55F0C3008E426A /* Debug */,
+				20EC142B1E55F0C3008E426A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
