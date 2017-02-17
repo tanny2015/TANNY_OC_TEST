@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20DDCCE41E5359A1002F0DF0"
-               BuildableName = "TANNY_OC_TEST"
-               BlueprintName = "TANNY_OC_TEST"
+               BlueprintIdentifier = "20AE0FA61E56B03900392F3C"
+               BuildableName = "6.custom_kvo"
+               BlueprintName = "6.custom_kvo"
                ReferencedContainer = "container:TANNY_OC_TEST.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20DDCCE41E5359A1002F0DF0"
-            BuildableName = "TANNY_OC_TEST"
-            BlueprintName = "TANNY_OC_TEST"
+            BlueprintIdentifier = "20AE0FA61E56B03900392F3C"
+            BuildableName = "6.custom_kvo"
+            BlueprintName = "6.custom_kvo"
             ReferencedContainer = "container:TANNY_OC_TEST.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20DDCCE41E5359A1002F0DF0"
-            BuildableName = "TANNY_OC_TEST"
-            BlueprintName = "TANNY_OC_TEST"
+            BlueprintIdentifier = "20AE0FA61E56B03900392F3C"
+            BuildableName = "6.custom_kvo"
+            BlueprintName = "6.custom_kvo"
             ReferencedContainer = "container:TANNY_OC_TEST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20DDCCE41E5359A1002F0DF0"
-            BuildableName = "TANNY_OC_TEST"
-            BlueprintName = "TANNY_OC_TEST"
+            BlueprintIdentifier = "20AE0FA61E56B03900392F3C"
+            BuildableName = "6.custom_kvo"
+            BlueprintName = "6.custom_kvo"
             ReferencedContainer = "container:TANNY_OC_TEST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

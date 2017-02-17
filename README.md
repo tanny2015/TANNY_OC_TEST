@@ -4,4 +4,7 @@
 ### 2.copy相关 
 ### 3.weak主动置nil
 ### 4.block修改堆中的内容
-### 5.runtime swizzle_method
+### 5.runtime swizzle_method   
+
+### 6.custom_kvo
+
