@@ -10,6 +10,9 @@
 		20AE0FAA1E56B03900392F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE0FA91E56B03900392F3C /* main.m */; };
 		20AE0FB21E56B07A00392F3C /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE0FAF1E56B07A00392F3C /* NSObject+KVO.m */; };
 		20AE0FB61E56B37C00392F3C /* Test6.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE0FB51E56B37C00392F3C /* Test6.m */; };
+		20AE0FBE1E5701C500392F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE0FBD1E5701C500392F3C /* main.m */; };
+		20AE0FC51E5707D700392F3C /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE0FC41E5707D700392F3C /* Dog.m */; };
+		20AE0FD61E57365F00392F3C /* TwoTimesArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE0FD51E57365F00392F3C /* TwoTimesArray.m */; };
 		20DDCCE91E5359A2002F0DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDCCE81E5359A2002F0DF0 /* main.m */; };
 		20DDCCF61E535A2A002F0DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDCCF51E535A2A002F0DF0 /* main.m */; };
 		20EC14021E54521D008E426A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC14011E54521D008E426A /* main.m */; };
@@ -25,6 +28,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		20AE0FA51E56B03900392F3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		20AE0FB91E5701C500392F3C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -96,6 +108,13 @@
 		20AE0FAF1E56B07A00392F3C /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 		20AE0FB41E56B37C00392F3C /* Test6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test6.h; sourceTree = "<group>"; };
 		20AE0FB51E56B37C00392F3C /* Test6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test6.m; sourceTree = "<group>"; };
+		20AE0FBB1E5701C500392F3C /* 7.KVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7.KVO; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AE0FBD1E5701C500392F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20AE0FC21E57066000392F3C /* test7_others.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test7_others.h; sourceTree = "<group>"; };
+		20AE0FC31E5707D700392F3C /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		20AE0FC41E5707D700392F3C /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		20AE0FD41E57365F00392F3C /* TwoTimesArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTimesArray.h; sourceTree = "<group>"; };
+		20AE0FD51E57365F00392F3C /* TwoTimesArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTimesArray.m; sourceTree = "<group>"; };
 		20DDCCE51E5359A1002F0DF0 /* TANNY_OC_TEST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TANNY_OC_TEST; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DDCCE81E5359A2002F0DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20DDCCF31E535A2A002F0DF0 /* 1.deep or shadow copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.deep or shadow copy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +140,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		20AE0FA41E56B03900392F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AE0FB81E5701C500392F3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,6 +210,19 @@
 			path = 6.custom_kvo;
 			sourceTree = "<group>";
 		};
+		20AE0FBC1E5701C500392F3C /* 7.KVO */ = {
+			isa = PBXGroup;
+			children = (
+				20AE0FD41E57365F00392F3C /* TwoTimesArray.h */,
+				20AE0FD51E57365F00392F3C /* TwoTimesArray.m */,
+				20AE0FC21E57066000392F3C /* test7_others.h */,
+				20AE0FBD1E5701C500392F3C /* main.m */,
+				20AE0FC31E5707D700392F3C /* Dog.h */,
+				20AE0FC41E5707D700392F3C /* Dog.m */,
+			);
+			path = 7.KVO;
+			sourceTree = "<group>";
+		};
 		20DDCCDC1E5359A1002F0DF0 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +233,7 @@
 				20EC141C1E55AEF2008E426A /* 4.block修改堆中的内容 */,
 				20EC14271E55F0C3008E426A /* 5.runtime swizzle_method */,
 				20AE0FA81E56B03900392F3C /* 6.custom_kvo */,
+				20AE0FBC1E5701C500392F3C /* 7.KVO */,
 				20DDCCE61E5359A1002F0DF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -208,6 +248,7 @@
 				20EC141B1E55AEF2008E426A /* 4.block修改堆中的内容 */,
 				20EC14261E55F0C3008E426A /* 5.runtime swizzle_method */,
 				20AE0FA71E56B03900392F3C /* 6.custom_kvo */,
+				20AE0FBB1E5701C500392F3C /* 7.KVO */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,6 +328,23 @@
 			name = 6.custom_kvo;
 			productName = 6.custom_kvo;
 			productReference = 20AE0FA71E56B03900392F3C /* 6.custom_kvo */;
+			productType = "com.apple.product-type.tool";
+		};
+		20AE0FBA1E5701C500392F3C /* 7.KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AE0FC11E5701C500392F3C /* Build configuration list for PBXNativeTarget "7.KVO" */;
+			buildPhases = (
+				20AE0FB71E5701C500392F3C /* Sources */,
+				20AE0FB81E5701C500392F3C /* Frameworks */,
+				20AE0FB91E5701C500392F3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 7.KVO;
+			productName = 7.KVO;
+			productReference = 20AE0FBB1E5701C500392F3C /* 7.KVO */;
 			productType = "com.apple.product-type.tool";
 		};
 		20DDCCE41E5359A1002F0DF0 /* TANNY_OC_TEST */ = {
@@ -404,6 +462,10 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
+					20AE0FBA1E5701C500392F3C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					20DDCCE41E5359A1002F0DF0 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -447,6 +509,7 @@
 				20EC141A1E55AEF2008E426A /* 4.block修改堆中的内容 */,
 				20EC14251E55F0C3008E426A /* 5.runtime swizzle_method */,
 				20AE0FA61E56B03900392F3C /* 6.custom_kvo */,
+				20AE0FBA1E5701C500392F3C /* 7.KVO */,
 			);
 		};
 /* End PBXProject section */
@@ -459,6 +522,16 @@
 				20AE0FB61E56B37C00392F3C /* Test6.m in Sources */,
 				20AE0FB21E56B07A00392F3C /* NSObject+KVO.m in Sources */,
 				20AE0FAA1E56B03900392F3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AE0FB71E5701C500392F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AE0FC51E5707D700392F3C /* Dog.m in Sources */,
+				20AE0FD61E57365F00392F3C /* TwoTimesArray.m in Sources */,
+				20AE0FBE1E5701C500392F3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +611,28 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20AE0FBF1E5701C500392F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20AE0FC01E5701C500392F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -750,6 +845,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		20AE0FC11E5701C500392F3C /* Build configuration list for PBXNativeTarget "7.KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AE0FBF1E5701C500392F3C /* Debug */,
+				20AE0FC01E5701C500392F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		20DDCCE01E5359A1002F0DF0 /* Build configuration list for PBXProject "TANNY_OC_TEST" */ = {
 			isa = XCConfigurationList;
